@@ -1,0 +1,283 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background: rgb(238, 239, 241);
+    padding-top: 57px;
+    min-height: 700px;
+}
+
+.container {
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+
+}
+
+.logo {
+    width: 96px;
+    height: 60px;
+}
+
+.header__logo {}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 42px;
+
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 10%;
+    transition: color 0.6s;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    color: rgb(255, 0, 255);
+}
+
+.hero__content {
+    display: flex;
+    padding-bottom: 146px;
+}
+
+.hero__img-wrap {
+    text-align: center;
+    width: 50%;
+}
+
+.hero__img {
+    width: 360px;
+
+}
+
+.hero__desc {
+    max-width: 540px;
+}
+
+.hero__title {
+    margin-bottom: 50px;
+}
+
+.title {
+
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 164%;
+    color: #000;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+}
+
+.hero__subtitle {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.btn-wrap {}
+
+.btn {
+    padding: 25px 40px;
+    background: #34547a;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0.1em;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.about {
+    padding-top: 120px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.about__contect {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+
+
+.achievements {
+    background: #34547a;
+    padding: 100px 0px;
+
+}
+
+
+
+
+.achievements__list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.achievement {
+    display: flex;
+    align-items: flex-end;
+}
+
+.achievement__item {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #fff;
+    display: flex;
+
+}
+
+.achievement__icon {}
+
+.achievement__desc {
+    margin-left: 20px;
+}
+
+.achievement__count {
+    margin-bottom: 10px;
+}
+
+.achievment__text {}
+
+/* Мои Навыки */
+
+.skills {
+    padding: 100px 0px;
+}
+
+.container {}
+
+.skills__content {
+    display: flex;
+}
+
+.skills__desc {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.section__title {
+    margin-bottom: 50px;
+}
+
+.skills__title {}
+
+.skills__list {}
+
+.skills__item {
+    margin-bottom: 26px;
+}
+
+.skill {}
+
+.skill__desc {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    margin-bottom: 10px;
+    margin-right: 150px;
+}
+
+.skill__meter {}
+
+/* стили для самого метра */
+.skill__meter::-webkit-meter-bar {
+    width: 445px;
+    border-radius: 0px;
+    border: none;
+    height: 4px;
+    background: #c4c4c4;
+}
+
+/* цвет полосы */
+.skill__meter::-webkit-meter-optimum-value {
+    background: #34547a;
+}
+
+.skills__img-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__img {
+    width: 555px;
+    height: 550px;
+    object-fit: contain;
+}
