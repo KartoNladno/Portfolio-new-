@@ -96,6 +96,7 @@ h6 {
 .hero__content {
     display: flex;
     padding-bottom: 146px;
+    gap: 30px;
 }
 
 .hero__img-wrap {
@@ -339,7 +340,7 @@ h6 {
 .demo__img {}
 
 .demo__video-btn:active {
-    transform: translate(-50%, -50%) scale(0.9);
+    transform: translate(-50%, -50%) scale(0.85);
 }
 
 
