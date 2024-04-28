@@ -311,7 +311,7 @@ h6 {
     font-weight: 500;
     font-size: 32px;
     text-align: center;
-    color: #000;
+    color: #8d8d8d;
 }
 
 .demo__text {
@@ -399,5 +399,145 @@ h6 {
 .work__link:hover .work__overlay {
     height: 100%;
     transition: 0.5s;
+
+}
+
+
+.clients {
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+
+.container {}
+
+.clients__list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.clients__items {
+    flex: 0 1 255px;
+}
+
+.clients__img {}
+
+.feedback {
+    padding: 100px 0px;
+    background-color: #eeeff1;
+}
+
+
+
+.feedback__content {
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.feedback__Desc {
+    text-align: center;
+}
+
+.section-title {}
+
+.feedback__title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.feedback__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 65px;
+}
+
+.form__inputs {
+    margin-bottom: 50px;
+}
+
+.form {}
+
+.form__inpunt {
+    flex: 1;
+
+}
+
+.form__row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form__row:last-child {
+    margin: 0;
+}
+
+
+
+.form__user-info {
+    width: 50%;
+}
+
+.form__text {
+    height: 175px;
+    border: none;
+    resize: none;
+}
+
+
+
+input {
+    outline: none;
+}
+
+
+
+.form__input {
+    border: none;
+    padding: 20px;
+}
+
+.form__btn-wrap {
+    text-align: center;
+}
+
+.btn .form__btn {}
+
+
+
+.footer {
+    background-color: #34547a;
+    height: 150px;
+}
+
+.footer__desc {}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 400px;
+    color: white;
+
+}
+
+.footer__name {
+    padding-bottom: 20px;
+}
+
+.footer__rights {}
+
+.footer__sub-img {}
+
+.footer__vk-logo {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 22px;
 
 }
