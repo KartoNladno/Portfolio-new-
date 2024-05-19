@@ -141,7 +141,7 @@ h6 {
 
 .btn {
     padding: 25px 40px;
-    background: #34547a;
+    background: rgb(212, 132, 144);
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -176,7 +176,7 @@ h6 {
 
 
 .achievements {
-    background: #34547a;
+    background: rgb(212, 132, 144);
     padding: 100px 0px;
 
 }
@@ -198,7 +198,7 @@ h6 {
 .achievement__item {
     padding-top: 100px;
     padding-bottom: 100px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: flex;
 
 }
@@ -269,7 +269,7 @@ h6 {
 
 /* цвет полосы */
 .skill__meter::-webkit-meter-optimum-value {
-    background: #34547a;
+    background-color: rgb(224, 163, 224);
 }
 
 .skills__img-wrap {
@@ -379,7 +379,8 @@ h6 {
 
 .work__overlay {
     position: absolute;
-    background-color: rgba(52, 84, 122, 0.8);
+    background: rgb(212, 132, 144);
+    opacity: .3;
     width: 100%;
     height: 0;
     top: 0px;
@@ -513,7 +514,7 @@ input {
 
 
 .footer {
-    background-color: #34547a;
+    background: rgb(212, 132, 144);
     height: 150px;
 }
 
